@@ -1,0 +1,10 @@
+#Details
+name=input("Enter the name:")
+name1=name.upper()
+age=int(input("Enter your age:"))
+address=input("Enter the address:")
+print( "\nYour Details:\n")
+print(f"{name1}\n")
+print(f"Your age is {age}\n")
+print(f"Your address is {address}\n")
+print(f"your Nickname is {name1[:2] + name1[-2:]}\n")
