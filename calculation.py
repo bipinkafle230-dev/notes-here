@@ -1,4 +1,5 @@
 #calculator
+#calculator
 num1=int(float(input("enter the num1:")))
 num2=int(float(input("enter the num2:")))
 
@@ -6,7 +7,7 @@ num2=int(float(input("enter the num2:")))
 sum_ = num1 + num2
 sub = num1 - num2
 multiply = num1 * num2
-divide = num1 / num2
+divide = int(num1 / num2)
 modulus = num1 % num2
 sqsum = num1**2 + num2**2
 
